@@ -1,11 +1,13 @@
-song = "";
+song1 = "";
+song2 = "";
 leftWristX = 0;
 leftWristY = 0;
 rightWristX = 0;
 rightWristY = 0;
 
 function preload() {
-    //song = loadSound("music.mp3");
+    song1 = loadSound("music.mp3");
+    song2 = loadSound("music2.mp3")
 }
 
 function setup() {
